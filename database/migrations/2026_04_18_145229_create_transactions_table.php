@@ -18,6 +18,7 @@ return new class extends Migration
             $table->integer('total_price');
             $table->timestamp('created_at');
         });
+
     }
 
     /**
